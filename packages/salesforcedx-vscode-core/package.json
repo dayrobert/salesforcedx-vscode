@@ -24,6 +24,7 @@
   "categories": ["Other"],
   "dependencies": {
     "@salesforce/salesforcedx-utils-vscode": "^40.10.0",
+    "@salesforce/salesforcedx-sobjects-faux-generator": "40.10.0",
     "glob": "^7.1.2",
     "rxjs": "^5.4.1"
   },
@@ -254,8 +255,13 @@
         "title": "%force_lightning_interface_create_text%"
       },
       {
+<<<<<<< HEAD
         "command": "sfdx.force.debugger.stop",
         "title": "%force_debugger_stop_text%"
+=======
+        "command": "sfdx.force.genfauxclasses",
+        "title": "SFDX: Generate Faux Classes"
+>>>>>>> WIP - first end-to-end execution of faux classes
       }
     ]
   }

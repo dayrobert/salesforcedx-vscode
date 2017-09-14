@@ -12,6 +12,7 @@ import {
   forceApexTestRun,
   forceAuthWebLogin,
   forceDebuggerStop,
+  forceGenerateFauxClassesCreate,
   forceLightningAppCreate,
   forceLightningComponentCreate,
   forceLightningEventCreate,
@@ -101,9 +102,15 @@ function registerCommands(): vscode.Disposable {
     'sfdx.force.lightning.interface.create',
     forceLightningInterfaceCreate
   );
+
   const forceDebuggerStopCmd = vscode.commands.registerCommand(
     'sfdx.force.debugger.stop',
     forceDebuggerStop
+  );
+
+  const forceGenerateFauxClassesCmd = vscode.commands.registerCommand(
+    'sfdx.force.genfauxclasses',
+    forceGenerateFauxClassesCreate
   );
 
   // Internal commands
@@ -128,9 +135,13 @@ function registerCommands(): vscode.Disposable {
     forceLightningComponentCreateCmd,
     forceLightningEventCreateCmd,
     forceLightningInterfaceCreateCmd,
+<<<<<<< HEAD
     forceSourceStatusLocalCmd,
     forceSourceStatusRemoteCmd,
     forceDebuggerStopCmd,
+=======
+    forceGenerateFauxClassesCmd,
+>>>>>>> WIP - first end-to-end execution of faux classes
     internalCancelCommandExecution
   );
 }
