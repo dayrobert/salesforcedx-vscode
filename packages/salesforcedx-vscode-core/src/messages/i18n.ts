@@ -73,5 +73,7 @@ export const messages = {
   force_lightning_interface_create_text: 'SFDX: Create Lightning Interface',
   force_source_status_local_text: 'SFDX: View Local Changes',
   force_source_status_remote_text: 'SFDX: View Changes in Default Scratch Org',
-  force_config_list_text: 'SFDX: List All Config Variables'
+  force_config_list_text: 'SFDX: List All Config Variables',
+  force_alias_list_text: 'SFDX: List All Aliases',
+  force_org_display_text: 'SFDX: Show Org Details'
 };
