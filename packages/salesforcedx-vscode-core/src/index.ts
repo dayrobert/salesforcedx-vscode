@@ -135,13 +135,10 @@ function registerCommands(): vscode.Disposable {
     forceLightningComponentCreateCmd,
     forceLightningEventCreateCmd,
     forceLightningInterfaceCreateCmd,
-<<<<<<< HEAD
     forceSourceStatusLocalCmd,
     forceSourceStatusRemoteCmd,
     forceDebuggerStopCmd,
-=======
     forceGenerateFauxClassesCmd,
->>>>>>> WIP - first end-to-end execution of faux classes
     internalCancelCommandExecution
   );
 }

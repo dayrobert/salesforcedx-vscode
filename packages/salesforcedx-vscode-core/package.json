@@ -255,13 +255,12 @@
         "title": "%force_lightning_interface_create_text%"
       },
       {
-<<<<<<< HEAD
         "command": "sfdx.force.debugger.stop",
         "title": "%force_debugger_stop_text%"
-=======
+      },
+      {
         "command": "sfdx.force.genfauxclasses",
-        "title": "SFDX: Generate Faux Classes"
->>>>>>> WIP - first end-to-end execution of faux classes
+        "title": "%force_generate_faux_classes%"
       }
     ]
   }
